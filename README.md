@@ -6,14 +6,27 @@ and predict whether a customer is likely to churn.
 
 Approach
 
-Data Wrangling: The dataset was cleaned and preprocessed to handle missing values, convert categorical variables, and create new features for better analysis.
-Exploratory Data Analysis (EDA): Visualizations and statistical summaries were used to understand the distribution of key variables such as tenure, monthly charges, 
-and total charges.
-Customer Segmentation: Customers were segmented based on tenure groups, and new features like average monthly charges and service usage were created.
-Machine Learning Modeling: Two models (Logistic Regression and Random Forest) were trained and evaluated to predict customer churn. The best-performing model 
-was selected based on F1 score and ROC AUC metrics.
+Data Wrangling: Missing values in the TotalCharges column were handled by replacing empty entries with NaN, then filling those with 0. Categorical features such as SeniorCitizen were recoded for clarity and analysis. Multiple service-related features were converted to categorical types for model compatibility.
 
-Results
+Exploratory Data Analysis (EDA): Box plots were generated for key numerical features (tenure, MonthlyCharges, TotalCharges) to assess distributions and detect outliers. Tenure was also segmented into groups for deeper pattern recognition.
+
+Customer Segmentation: Customers were segmented based on tenure groups using bins to segment customers by how long they’ve been with the company i.e (0-1yr, 1-2yr, etc). 
+New features like average monthly charges and service usage were created. Generated a new binary feature NoAddServices to flag customers who don’t use any additional 
+services i.e (OnlineBackup, StreamingTV, etc)
+
+Modeling and Evaluation
+
+Used StandardScaler and OneHotEncoder via ColumnTransformer to prepare data for modeling.
+
+Two models (Logistic Regression and Random Forest) were trained and evaluated to predict customer churn, using GridSearchCV for 
+hyperparameter tuning and cross validation. The best performing model was selected based on F1 score and ROC AUC metrics.
+The Random Forest model achieving the best results with a (F1: 0.89, ROC AUC: 0.947).
+
+Key Results
+
+Customers with shorter tenure, higher monthly charges, and no contract-based services were more likely to churn.
+Segmenting customers and creating interaction features improved model performance and interpretability.
+The Random Forest model was selected for deployment due to its higher predictive power compared to Logistic Regression.
 
 The Random Forest model outperformed Logistic Regression with an F1 score of 0.63 and ROC AUC of 0.84.
 Key factors influencing churn include tenure, monthly charges, and the type of internet service contract.
@@ -21,28 +34,5 @@ The analysis provides actionable insights for reducing customer churn, such as t
 
 Important Files
 
-Experiment With Various Models.ipynb: The main Jupyter notebook containing the code for data wrangling, EDA, segmentation, and machine learning modeling.
+Deployment Implementation.ipynb: The main Jupyter notebook containing the code for data wrangling, EDA, segmentation, and machine learning modeling.
 WA_Fn-UseC_-Telco-Customer-Churn.csv: The dataset used for the analysis.
-
-
-Methodology
-
-Data Cleaning: Handled missing values in the "TotalCharges" column by replacing them with zeros.
-Converted numerical columns like "SeniorCitizen" to categorical for better analysis.
-Created new features such as "tenure_group" to segment customers based on their tenure.
-
-Exploratory Data Analysis
-
-Visualized the distribution of numerical variables using box plots to identify outliers and understand central tendencies.
-Analyzed the relationship between tenure and churn to identify patterns.
-
-Customer Segmentation
-
-Segmented customers into groups based on tenure i.e (0-1yr, 1-2yr, etc).
-Created interaction features like "InternetContract" to analyze the combined effect of internet service type and contract length.
-
-Machine Learning
-
-Preprocessed the data using StandardScaler for numerical features and OneHotEncoder for categorical features.
-Trained and evaluated Logistic Regression and Random Forest models using GridSearchCV for hyperparameter tuning.
-Selected the best model based on performance metrics and interpreted the results to identify key churn factors.
