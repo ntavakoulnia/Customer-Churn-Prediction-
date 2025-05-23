@@ -11,7 +11,7 @@ Data Wrangling: Missing values in the TotalCharges column were handled by replac
 Exploratory Data Analysis (EDA): Box plots were generated for key numerical features (tenure, MonthlyCharges, TotalCharges) to assess distributions and detect outliers. Tenure was also segmented into groups for deeper pattern recognition.
 
 Customer Segmentation: Customers were segmented based on tenure groups, using bins to segment customers by how long they’ve been with the company i.e (0-1yr, 1-2yr, etc). 
-New features like average monthly charges and service usage were created. Generated a new binary feature NoAddServices to flag customers who don’t use any additional 
+New features like average monthly charges and service usage were created. A new binary feature called NoAddServices was made to flag customers who don’t use any additional 
 services i.e (OnlineBackup, StreamingTV, etc)
 
 Modeling and Evaluation
@@ -24,7 +24,7 @@ The Random Forest model achieving the best results with a (F1: 0.89, ROC AUC: 0.
 
 Key Results
 
-Customers with shorter tenure, higher monthly charges, and no contract-based services were more likely to churn.
+Customers with shorter tenure, higher monthly charges, and no contract based services were more likely to churn.
 Segmenting customers and creating interaction features improved model performance and interpretability.
 The Random Forest model was selected for deployment due to its higher predictive power compared to Logistic Regression.
 
