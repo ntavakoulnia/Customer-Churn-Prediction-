@@ -6,11 +6,11 @@ and predict whether a customer is likely to churn.
 
 Approach
 
-Data Wrangling: Missing values in the TotalCharges column were handled by replacing empty entries with NaN, then filling those with 0. Categorical features such as SeniorCitizen were recoded for clarity and analysis. Multiple service-related features were converted to categorical types for model compatibility.
+Data Wrangling: Missing values in the TotalCharges column were handled by replacing empty entries with NaN, then filling those with 0. Categorical features such as SeniorCitizen were recoded to numerical types for clarity and analysis. Multiple service related features were converted to categorical types for model compatibility.
 
 Exploratory Data Analysis (EDA): Box plots were generated for key numerical features (tenure, MonthlyCharges, TotalCharges) to assess distributions and detect outliers. Tenure was also segmented into groups for deeper pattern recognition.
 
-Customer Segmentation: Customers were segmented based on tenure groups using bins to segment customers by how long they’ve been with the company i.e (0-1yr, 1-2yr, etc). 
+Customer Segmentation: Customers were segmented based on tenure groups, using bins to segment customers by how long they’ve been with the company i.e (0-1yr, 1-2yr, etc). 
 New features like average monthly charges and service usage were created. Generated a new binary feature NoAddServices to flag customers who don’t use any additional 
 services i.e (OnlineBackup, StreamingTV, etc)
 
@@ -27,10 +27,6 @@ Key Results
 Customers with shorter tenure, higher monthly charges, and no contract-based services were more likely to churn.
 Segmenting customers and creating interaction features improved model performance and interpretability.
 The Random Forest model was selected for deployment due to its higher predictive power compared to Logistic Regression.
-
-The Random Forest model outperformed Logistic Regression with an F1 score of 0.63 and ROC AUC of 0.84.
-Key factors influencing churn include tenure, monthly charges, and the type of internet service contract.
-The analysis provides actionable insights for reducing customer churn, such as targeting customers with shorter tenure or those not using additional services.
 
 Important Files
 
