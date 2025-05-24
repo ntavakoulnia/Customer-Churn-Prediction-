@@ -35,6 +35,7 @@ WA_Fn-UseC_-Telco-Customer-Churn.csv: The dataset used for the analysis.
 
 Application
 
-[Watch the demo video]([https://example.com/path/to/video.mp4](https://www.veed.io/view/b58aa23b-2c04-4fd4-ab38-13e241ebe1ab?panel=share))
+[Watch the demo video](https://www.veed.io/view/b58aa23b-2c04-4fd4-ab38-13e241ebe1ab?panel=share)
+
 
 
