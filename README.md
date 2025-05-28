@@ -1,7 +1,18 @@
 # Telecom Customer Churn Analysis & Prediction Platform
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c67ad491-1fb9-4b5b-a4b4-cbc42eec0bf3" width="1200px" style="max-width: 100%; height: auto; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges;">
+  <img 
+    src="https://github.com/user-attachments/assets/c67ad491-1fb9-4b5b-a4b4-cbc42eec0bf3" 
+    width="1200px"
+    style="
+      max-width: 100%;
+      height: auto;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    "
+  >
 </div>
 
 
