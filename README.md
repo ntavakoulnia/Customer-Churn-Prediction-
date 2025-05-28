@@ -77,7 +77,7 @@ jupyter notebook analysis/Deployment_Implementation.ipynb
 
 cd app
 streamlit run app.py
-
+```
 Sample Visualizations
 
 [image](https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b)
