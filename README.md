@@ -83,11 +83,11 @@ streamlit run app.py
 
 <table align="center">
   <tr>
-    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="1000px"></td>
-    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="1000px"></td>
+    <td colspan="2" align="center"><img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="1000px"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center" padding="20px"><img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="1000px"></td>
+    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="800px"></td>
+    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="800px"></td>
   </tr>
 </table>
 
