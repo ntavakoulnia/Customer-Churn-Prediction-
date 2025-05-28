@@ -66,33 +66,31 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 │ ├── random_forest_model.pkl
 │ └── Engineered_Customer_Churn.csv
 └── README.md
-```D
+```
 
 
 ## Getting Started
 
 ### Prerequisites
 ```bash
-pip install -r requirements.txt
 
-jupyter notebook analysis/Deployment_Implementation.ipynb
+analysis/Deployment_Implementation.py
 
 cd app
 streamlit run app.py
 ```
 ## Sample Visualizations
 
-## Sample Visualizations
-
 <table align="center">
   <tr>
-    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="400px"></td>
-    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="400px"></td>
+    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="1000px"></td>
+    <td width="50%" align="center"><img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="1000px"></td>
   </tr>
   <tr>
-    <td colspan="2" align="center" padding="20px"><img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="400px"></td>
+    <td colspan="2" align="center" padding="20px"><img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="1000px"></td>
   </tr>
 </table>
+
 
 ## Model Results
 | Class      | Precision | Recall | F1-Score | Support |
