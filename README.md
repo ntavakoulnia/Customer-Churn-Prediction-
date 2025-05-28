@@ -34,9 +34,10 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 |------------|-----------|--------|----------|---------|
 | Non-Churn  | 0.96      | 0.78   | 0.86     | 1035    |
 | Churn      | 0.82      | 0.97   | 0.89     | 1035    |
-| **Accuracy**                 | **0.88**  | 2070    |
+| **Accuracy** |          |        | **0.88**  | 2070    |
 | Macro Avg  | 0.89      | 0.88   | 0.88     | 2070    |
 | Weighted Avg| 0.89      | 0.88   | 0.88     | 2070    |
+
 
 ## Advantages of the Solution
 
@@ -76,7 +77,7 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 └── README.md
 
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -87,7 +88,7 @@ jupyter notebook analysis/Deployment_Implementation.ipynb
 cd app
 streamlit run app.py
 ```
-Sample Visualizations
+## Sample Visualizations
 
 ![image](https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b)
 
@@ -95,15 +96,15 @@ Sample Visualizations
 
 ![image](https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d)
 
+##  Future Improvements
+- Enhanced feature engineering
+- Additional ML models (XGBoost, LightGBM)
+- API deployment
+- Realistic monitoring dashboard
+- Integration with CRM systems
 
 
-Training Time (seconds) 	F1 Score 	ROC AUC Score
-Logistic Regression 	0.11 	0.770499 	0.835225
-Random Forest 	41.5 	0.887809 	0.946634
-
-
-
-Application
+## Application
 
 [Watch the demo video](https://www.veed.io/view/b58aa23b-2c04-4fd4-ab38-13e241ebe1ab?panel=share)
 
