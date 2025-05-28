@@ -65,17 +65,16 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 - Joblib
 
 ## Repository Structure
-
-📦 telco-churn-predictor
- ┣ 📂 analysis
- ┃ ┣ 📔 Deployment_Implementation.ipynb
- ┃ ┗ 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv
- ┣ 📂 app
- ┃ ┣ 📜 app.py
- ┃ ┣ 🤖 random_forest_model.pkl
- ┃ ┗ 📊 Engineered_Customer_Churn.csv
- ┗ 📄 README.md
-
+```bash
+├── analysis/
+│ ├── Deployment_Implementation.ipynb
+│ └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+├── app/
+│ ├── app.py
+│ ├── random_forest_model.pkl
+│ └── Engineered_Customer_Churn.csv
+└── README.md
+```
 
 
 ## Getting Started
