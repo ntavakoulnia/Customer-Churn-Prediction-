@@ -1,5 +1,7 @@
 # Telecom Customer Churn Analysis & Prediction Platform
 
+![Navid Tavakoulnia's Video - May 28, 2025-VEED (1)](https://github.com/user-attachments/assets/c67ad491-1fb9-4b5b-a4b4-cbc42eec0bf3)
+
 ## Project Overview
 A comprehensive solution for telecommunications customer churn analysis and prediction, consisting of two main components:
 1. Data Analysis & Model Development
