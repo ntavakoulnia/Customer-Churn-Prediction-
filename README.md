@@ -29,6 +29,15 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 | Logistic Regression | 0.770 | 0.835 | 0.11|
 | Random Forest | 0.888 | 0.947 | 41.50 |
 
+
+| Class      | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| Non-Churn  | 0.96      | 0.78   | 0.86     | 1035    |
+| Churn      | 0.82      | 0.97   | 0.89     | 1035    |
+| **Accuracy**                 | **0.88**  | 2070    |
+| Macro Avg  | 0.89      | 0.88   | 0.88     | 2070    |
+| Weighted Avg| 0.89      | 0.88   | 0.88     | 2070    |
+
 ## Advantages of the Solution
 
 ### Analysis Benefits
@@ -80,9 +89,12 @@ streamlit run app.py
 ```
 Sample Visualizations
 
-[image](https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b)
+![image](https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b)
 
-[Uploading data_image_png;base64,iVBORw0KGgoAAAANSUhEUgAAAiQAAAHFCAYAAADCA+LKAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjguNCwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy8fJSN1AAAACXBIWXMAAA9hAAAPYQGoP6dpAABClUlEQVR4nO3df3zP9f7_8fvbfrxtM2sb++W3WkVTREejQn6GWB0_ikoHHRJa.url…]()
+![image](https://github.com/user-attachments/assets/cc678b7d-7f87-4fdf-a8c4-672dee9ed105)
+
+![image](https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d)
+
 
 
 Training Time (seconds) 	F1 Score 	ROC AUC Score
