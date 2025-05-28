@@ -82,15 +82,14 @@ streamlit run app.py
 ```
 ## Sample Visualizations
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="100%"></td>
-    <td><img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="100%"></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="70%"></td>
-  </tr>
-</table>
+## Sample Visualizations
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="45%">
+  <img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="45%">
+  <img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="60%">
+</div>
+
 
 ## Model Results
 | Class      | Precision | Recall | F1-Score | Support |
