@@ -66,15 +66,16 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 
 ## Repository Structure
 
-├── analysis/
-│ ├── Deployment_Implementation.ipynb
-│ └── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── app/
-│ ├── app.py
-│ ├── random_forest_model.pkl
-│ └── Engineered_Customer_Churn.csv
-├── requirements.txt
-└── README.md
+📦 telco-churn-predictor
+ ┣ 📂 analysis
+ ┃ ┣ 📔 Deployment_Implementation.ipynb
+ ┃ ┗ 📊 WA_Fn-UseC_-Telco-Customer-Churn.csv
+ ┣ 📂 app
+ ┃ ┣ 📜 app.py
+ ┃ ┣ 🤖 random_forest_model.pkl
+ ┃ ┗ 📊 Engineered_Customer_Churn.csv
+ ┗ 📄 README.md
+
 
 
 ## Getting Started
@@ -92,7 +93,7 @@ streamlit run app.py
 
 ![image](https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b)
 
-![image](https://github.com/user-attachments/assets/cc678b7d-7f87-4fdf-a8c4-672dee9ed105)
+![image](https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d)
 
 ![image](https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d)
 
