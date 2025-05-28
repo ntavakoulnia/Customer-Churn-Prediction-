@@ -23,20 +23,12 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 - Automated recommendations
 - Downloadable reports
 
-## 📈 Model Performance
+##  Model Performance
 | Model | F1 Score | ROC AUC | Training Time (s) |
 |-------|-----------|----------|------------------|
 | Logistic Regression | 0.770 | 0.835 | 0.11|
 | Random Forest | 0.888 | 0.947 | 41.50 |
 
-
-| Class      | Precision | Recall | F1-Score | Support |
-|------------|-----------|--------|----------|---------|
-| Non-Churn  | 0.96      | 0.78   | 0.86     | 1035    |
-| Churn      | 0.82      | 0.97   | 0.89     | 1035    |
-| **Accuracy** |          |        | **0.88**  | 2070    |
-| Macro Avg  | 0.89      | 0.88   | 0.88     | 2070    |
-| Weighted Avg| 0.89      | 0.88   | 0.88     | 2070    |
 
 
 ## Advantages of the Solution
@@ -49,7 +41,7 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 
 ### Streamlit App Benefits
 - User-friendly interface
-- Real-time predictions
+- Realistic predictions
 - Adjustable parameters
 - Visual insights
 - Batch processing capability
@@ -67,14 +59,14 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 ## Repository Structure
 ```bash
 ├── analysis/
-│ ├── Deployment_Implementation.ipynb
+│ ├── Deployment_Implementation.py
 │ └── WA_Fn-UseC_-Telco-Customer-Churn.csv
 ├── app/
 │ ├── app.py
 │ ├── random_forest_model.pkl
 │ └── Engineered_Customer_Churn.csv
 └── README.md
-```
+```D
 
 
 ## Getting Started
@@ -90,11 +82,25 @@ streamlit run app.py
 ```
 ## Sample Visualizations
 
-![image](https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f6c43aa8-38ae-4dab-8c33-3b27666e3d1b" width="100%"></td>
+    <td><img src="https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d" width="100%"></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d" width="70%"></td>
+  </tr>
+</table>
 
-![image](https://github.com/user-attachments/assets/75566e05-c423-4325-a301-41871f34630d)
+## Model Results
+| Class      | Precision | Recall | F1-Score | Support |
+|------------|-----------|--------|----------|---------|
+| Non-Churn  | 0.96      | 0.78   | 0.86     | 1035    |
+| Churn      | 0.82      | 0.97   | 0.89     | 1035    |
+| **Accuracy** |          |        | **0.88**  | 2070    |
+| Macro Avg  | 0.89      | 0.88   | 0.88     | 2070    |
+| Weighted Avg| 0.89      | 0.88   | 0.88     | 2070    |
 
-![image](https://github.com/user-attachments/assets/fd338906-c0d4-4d88-987f-e37fc59fa98d)
 
 ##  Future Improvements
 - Enhanced feature engineering
