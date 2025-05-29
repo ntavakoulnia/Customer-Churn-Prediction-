@@ -91,7 +91,7 @@ A comprehensive solution for telecommunications customer churn analysis and pred
 ```bash
 
 analysis/Deployment_Implementation.py
-
+python Deployment_Implementation.py
 cd app
 streamlit run app.py
 ```
